@@ -1,0 +1,220 @@
+.containers {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(https://i.stack.imgur.com/pMAiU.jpg);
+  background-repeat: repeat;
+  width: 675px;
+  height: 635px;
+  margin-top: -5px;
+}
+
+.containers .container {
+  margin: 5px;
+}
+
+.containers .container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40px;
+  border-bottom: 2px solid #888;
+  margin-bottom: 10px;
+}
+
+.containers .container header h1 {
+  margin: 8px 5px;
+  font-size: large;
+  font-weight: bold;
+  color: #dd4;
+}
+
+.containers .container header .view-all {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.containers .container header .view-all a {
+  margin: -5px 5px 0 0;
+  color: #bbb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.containers .container .item-list {
+  margin-top: -15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.containers .container .item-list .item {
+  margin: 10px 5px 0 0;
+  width: 155px;
+  height: 280px;
+  position: relative;
+  background-color: #1b1b1b;
+  border: 2px solid #1b1b1b;
+  border-bottom: 1.5px solid #888;
+}
+
+.containers .container .item-list .item img {
+  display: block;
+  height: 210px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.containers .container .item-list .item .sub {
+  position: absolute;
+  top: 3px;
+  left: 1px;
+  background-color: #a21d0a;
+  padding: 0 5px 5px 3px;
+}
+
+.containers .container .item-list .item .sub .triangle {
+  width: 0;
+  height: 0;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(9.5px);
+          transform: translate(9.5px);
+  border-bottom: 11px solid transparent;
+  border-top: 10px solid transparent;
+  border-left: 10px solid #a21d0a;
+  position: absolute;
+  display: inline-block;
+}
+
+.containers .container .item-list .item .sub span {
+  margin-top: -3px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 9px;
+  color: #fff;
+}
+
+.containers .container .item-list .item h2 {
+  margin: 7px;
+  font-size: 10.5px;
+  font-weight: bold;
+  color: #3be;
+}
+
+.containers .container .item-list .item p {
+  margin: 7px;
+  color: #bbb;
+  font-size: 10.5px;
+}
+
+.containers .container .item-list .item .time {
+  margin: 7px;
+  color: #777;
+  font-size: 11px;
+}
+
+.link {
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 10px;
+  color: #1b1b1b;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.link:hover {
+  color: red;
+}
+
+.list {
+  width: 650px;
+  margin: 20px 25px;
+}
+
+.list .title {
+  font: italic 700 32px "Georgia Pro", Georgia, "Droid Serif", serif;
+  width: 630px;
+  color: #1b1b1b;
+  margin-left: 20px;
+}
+
+.list .title::after {
+  content: "";
+  display: block;
+  height: 10px;
+  margin-top: -12px;
+  background: #b9e1ff;
+}
+
+.list .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.list .cards .card {
+  margin-left: 20px;
+  width: 300px;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 5px 20px 0;
+  border-bottom: 1px solid #bbb;
+}
+
+.list .cards .card img {
+  width: 100px;
+  height: 75px;
+  cursor: pointer;
+}
+
+.list .cards .card .news {
+  margin-top: -8px;
+  margin-left: 10px;
+}
+
+.list .cards .card .news h2 {
+  margin-bottom: 3px;
+  font: 700 14px/16px "Unify Sans", "Helvetica Neue", "Arial Nova", Helvetica, Arial, sans-serif;
+}
+
+.list .cards .card .news span {
+  font: 700 14px/16px "Unify Sans", "Helvetica Neue", "Arial Nova", Helvetica, Arial, sans-serif;
+}
+
+.list .cards .card .f-blue {
+  color: #2341a1;
+}
+
+.list .cards .card .f-red {
+  color: #ad2a27;
+}
+
+.list .cards .card .f-green {
+  color: #08583d;
+}
+
+.list .cards .card .f-purple {
+  color: #73146e;
+}
+
+.list .cards .card .f-orange {
+  color: #d44d03;
+}
+
+.list .cards .card .bg-yellow {
+  background-color: #eafe75;
+}
+/*# sourceMappingURL=scss5.css.map */

@@ -1,0 +1,172 @@
+.containers {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(https://i.stack.imgur.com/pMAiU.jpg);
+  background-repeat: repeat;
+  width: 675px;
+  height: 635px;
+  margin-top: -5px;
+  .container {
+    margin: 5px;
+    header {
+      display: flex;
+      justify-content: space-between;
+      height: 40px;
+      border-bottom: 2px solid #888;
+      margin-bottom: 10px;
+      h1 {
+        margin: 8px 5px;
+        font-size: large;
+        font-weight: bold;
+        color: #dd4;
+      }
+      .view-all {
+        margin-top: 20px;
+        display: flex;
+        a {
+          margin: -5px 5px 0 0;
+          color: #bbb;
+          text-decoration: none;
+          font-size: 14px;
+        }
+      }
+    }
+    .item-list {
+      margin-top: -15px;
+      display: flex;
+      flex-wrap: wrap;
+      .item {
+        margin: 10px 5px 0 0;
+        width: 155px;
+        height: 280px;
+        position: relative;
+        background-color: #1b1b1b;
+        border: 2px solid #1b1b1b;
+        border-bottom: 1.5px solid #888;
+        img {
+          display: block;
+          height: 210px;
+          width: 100%;
+          cursor: pointer;
+        }
+        .sub {
+          position: absolute;
+          top: 3px;
+          left: 1px;
+          background-color: #a21d0a;
+          padding: 0 5px 5px 3px;
+          .triangle {
+            width: 0;
+            height: 0;
+            top: 0;
+            right: 0;
+            transform: translate(9.5px);
+            border-bottom: 11px solid transparent;
+            border-top: 10px solid transparent;
+            border-left: 10px solid #a21d0a;
+            position: absolute;
+            display: inline-block;
+          }
+          span {
+            margin-top: -3px;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 9px;
+            color: #fff;
+          }
+        }
+        h2 {
+          margin: 7px;
+          font-size: 10.5px;
+          font-weight: bold;
+          color: #3be;
+        }
+        p {
+          margin: 7px;
+          color: #bbb;
+          font-size: 10.5px;
+        }
+        .time {
+          margin: 7px;
+          color: #777;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
+.link {
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 10px;
+  color: #1b1b1b;
+  transition: 1s;
+  &:hover {
+    color: red;
+  }
+}
+.list {
+  width: 650px;
+  margin: 20px 25px;
+  .title {
+    font: italic 700 32px "Georgia Pro", Georgia, "Droid Serif", serif;
+    width: 630px;
+    color: #1b1b1b;
+    margin-left: 20px;
+    &::after {
+      content: "";
+      display: block;
+      height: 10px;
+      margin-top: -12px;
+      background: #b9e1ff;
+    }
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    .card {
+      margin-left: 20px;
+      width: 300px;
+      height: 75px;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 5px 20px 0;
+      border-bottom: 1px solid #bbb;
+      img {
+        width: 100px;
+        height: 75px;
+        cursor: pointer;
+      }
+      .news {
+        margin-top: -8px;
+        margin-left: 10px;
+        h2 {
+          margin-bottom: 3px;
+          font: 700 14px/16px "Unify Sans", "Helvetica Neue", "Arial Nova",
+            Helvetica, Arial, sans-serif;
+        }
+        span {
+          font: 700 14px/16px "Unify Sans", "Helvetica Neue", "Arial Nova",
+            Helvetica, Arial, sans-serif;
+        }
+      }
+      .f-blue {
+        color: #2341a1;
+      }
+      .f-red {
+        color: #ad2a27;
+      }
+      .f-green {
+        color: #08583d;
+      }
+      .f-purple {
+        color: #73146e;
+      }
+      .f-orange {
+        color: #d44d03;
+      }
+      .bg-yellow {
+        background-color: #eafe75;
+      }
+    }
+  }
+}

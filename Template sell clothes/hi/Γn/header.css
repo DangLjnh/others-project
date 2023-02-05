@@ -1,0 +1,99 @@
+.header {
+  height: 140px;
+  background-color: #fffde8;
+  font-family: Helvetica;
+}
+.header .head-top {
+  color: #bd8535;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .head-top .head-top-img img {
+  width: 130px;
+  height: 130px;
+}
+.header .head-top .head-top-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #bd8535;
+  border-radius: 5px;
+}
+.header .head-top .head-top-search .search-all {
+  border-radius: 5px;
+  height: 60px;
+  width: 70px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.header .head-top .head-top-search .search-text input {
+  outline: none;
+  width: 480px;
+  height: 58px;
+  border: none;
+  border-left: 2px solid #bd8535;
+  border-right: 2px solid #bd8535;
+}
+.header .head-top .head-top-search .search-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 4.5px;
+  border-bottom-right-radius: 5px;
+  height: 62px;
+  width: 73px;
+  background-color: #bd8535;
+  color: #fff;
+}
+.header .head-top .head-top-contact ul {
+  display: flex;
+}
+.header .head-top .head-top-contact ul li {
+  margin-right: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.header .head-top .head-top-contact ul li i {
+  margin-right: 5px;
+}
+.header .head-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #bd8535;
+  color: #fff;
+  padding: 0 60px;
+}
+.header .head-nav .head-nav-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .head-nav .head-nav-list ul li {
+  cursor: pointer;
+  margin-right: 40px;
+}
+.header .head-nav .head-nav-list ul li i {
+  margin-left: 5px;
+}
+.header .head-nav .head-nav-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 40px;
+  background-color: #fadb9f;
+  border-radius: 10px;
+}
+.header .head-nav .head-nav-download a {
+  font-weight: 600;
+  color: #bd8535;
+}
+#home {
+  color: #fadb9f;
+}

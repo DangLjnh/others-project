@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: #eceff8;
+  font-family: Merriweather;
+  display: flex;
+  justify-content: center;
+  .event {
+    max-width: 1100px;
+    .title {
+      color: #1b2442;
+      font-size: 36px;
+      font-weight: 900;
+      line-height: 45px;
+      line-height: 100%;
+      font-family: Mulish;
+    }
+    .cards {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      .pink {
+        background-color: #f8ecf8;
+      }
+      .blue {
+        background-color: #eceff8;
+      }
+      .orange {
+        background-color: #f8ecec;
+      }
+      .green {
+        background-color: #eef8ec;
+      }
+      .card {
+        margin: 20px;
+        background-color: #fff;
+        height: 173px;
+        border-radius: 20px;
+        display: flex;
+        padding: 20px;
+        &:hover {
+          box-shadow: 0px 10px 10px rgba(#333, 0.1);
+        }
+        .card-time {
+          width: 152px;
+          height: 133px;
+          border-radius: 20px;
+          color: #1b2442;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          h2 {
+            font-family: Mulish;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 23px;
+          }
+          p {
+            font-family: Merriweather;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 45px;
+          }
+        }
+        .card-content {
+          width: 524px;
+          margin: 30px;
+          h2 {
+            font-family: Merriweather;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 33px;
+            margin-bottom: 20px;
+          }
+          p {
+            font-family: IBM Plex Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 23px;
+          }
+        }
+        .card-add {
+          display: flex;
+          margin: 30px 20px 96.5px 80px;
+          cursor: pointer;
+          .add {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 173px;
+            height: 54px;
+            &:hover {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: #fff;
+              background-color: #000;
+              border-radius: 15px;
+            }
+            span {
+              display: inline-block;
+            }
+          }
+          .add-blk {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            background-color: #000;
+            border-radius: 15px;
+          }
+        }
+      }
+    }
+  }
+}

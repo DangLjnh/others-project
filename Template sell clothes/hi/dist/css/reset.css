@@ -1,0 +1,29 @@
+input,
+button,
+form {
+  outline: none;
+  border: none;
+  background-color: unset;
+}
+a {
+  text-decoration: none;
+}
+a:active {
+  color: none;
+}
+ul li {
+  list-style-type: none;
+}
+ol li {
+  list-style-type: none;
+}
+img {
+  display: block;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

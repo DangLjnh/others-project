@@ -1,0 +1,73 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(350deg, #4daf54, #3d8880);
+}
+
+body .menu {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .menu:hover .toggle {
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+}
+
+body .menu:hover li {
+  -webkit-transform: rotate(calc(360deg / 8 * var(--i)));
+          transform: rotate(calc(360deg / 8 * var(--i)));
+}
+
+body .menu .toggle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 5em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .menu li {
+  position: absolute;
+  left: 0;
+  -webkit-transform-origin: 200px;
+          transform-origin: 200px;
+  list-style: none;
+  font-size: 2em;
+  -webkit-transform: rotate(0) translateX(200px);
+          transform: rotate(0) translateX(200px);
+  -webkit-transition-delay: calc(0.1s * var(--i));
+          transition-delay: calc(0.1s * var(--i));
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+/*# sourceMappingURL=circle-navigation.css.map */

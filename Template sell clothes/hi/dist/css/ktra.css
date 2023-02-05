@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #eceff8;
+  font-family: Merriweather;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .event {
+  max-width: 1100px;
+}
+
+body .event .title {
+  color: #1b2442;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 45px;
+  line-height: 100%;
+  font-family: Mulish;
+}
+
+body .event .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .event .cards .pink {
+  background-color: #f8ecf8;
+}
+
+body .event .cards .blue {
+  background-color: #eceff8;
+}
+
+body .event .cards .orange {
+  background-color: #f8ecec;
+}
+
+body .event .cards .green {
+  background-color: #eef8ec;
+}
+
+body .event .cards .card {
+  margin: 20px;
+  background-color: #fff;
+  height: 173px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+}
+
+body .event .cards .card:hover {
+  -webkit-box-shadow: 0px 10px 10px rgba(51, 51, 51, 0.1);
+          box-shadow: 0px 10px 10px rgba(51, 51, 51, 0.1);
+}
+
+body .event .cards .card .card-time {
+  width: 152px;
+  height: 133px;
+  border-radius: 20px;
+  color: #1b2442;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+body .event .cards .card .card-time h2 {
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+body .event .cards .card .card-time p {
+  font-family: Merriweather;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+body .event .cards .card .card-content {
+  width: 524px;
+  margin: 30px;
+}
+
+body .event .cards .card .card-content h2 {
+  font-family: Merriweather;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 33px;
+  margin-bottom: 20px;
+}
+
+body .event .cards .card .card-content p {
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+body .event .cards .card .card-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 20px 96.5px 80px;
+  cursor: pointer;
+}
+
+body .event .cards .card .card-add .add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 173px;
+  height: 54px;
+}
+
+body .event .cards .card .card-add .add:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background-color: #000;
+  border-radius: 15px;
+}
+
+body .event .cards .card .card-add .add span {
+  display: inline-block;
+}
+
+body .event .cards .card .card-add .add-blk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  background-color: #000;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=ktra.css.map */

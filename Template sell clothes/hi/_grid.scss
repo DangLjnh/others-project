@@ -1,0 +1,68 @@
+@import "media";
+@import "variables";
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  @for $i from 1 through $cols {
+    .col-#{$i} {
+      width: (100% / $cols) * $i;
+      // margin: $gutter/2;
+      .col-item {
+        // box-shadow: 0px 0px 4px -2px;
+      }
+    }
+    .mar-#{$i} {
+      margin-left: (100% / $cols) * $i;
+    }
+  }
+  @for $i from 1 through $cols {
+    @include xs {
+      .col-xs-#{$i} {
+        width: (100% / $cols) * $i;
+      }
+      .mar-xs-#{$i} {
+        margin-left: (100% / $cols) * $i;
+      }
+    }
+  }
+  @for $i from 1 through $cols {
+    @include sm {
+      .col-sm-#{$i} {
+        width: (100% / $cols) * $i;
+      }
+      .mar-sm-#{$i} {
+        margin-left: (100% / $cols) * $i;
+      }
+    }
+  }
+  @for $i from 1 through $cols {
+    @include md {
+      .col-md-#{$i} {
+        width: (100% / $cols) * $i;
+      }
+      .mar-md-#{$i} {
+        margin-left: (100% / $cols) * $i;
+      }
+    }
+  }
+  @for $i from 1 through $cols {
+    @include lg {
+      .col-lg-#{$i} {
+        width: (100% / $cols) * $i;
+      }
+      .mar-lg-#{$i} {
+        margin-left: (100% / $cols) * $i;
+      }
+    }
+  }
+  @for $i from 1 through $cols {
+    @include xl {
+      .col-xl-#{$i} {
+        width: (100% / $cols) * $i;
+      }
+      .mar-xl-#{$i} {
+        margin-left: (100% / $cols) * $i;
+      }
+    }
+  }
+}

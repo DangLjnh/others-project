@@ -1,0 +1,158 @@
+//đối với những màn hình nhỏ hơn 1000px
+// h1 {
+//   font-size: 16px;
+//   @media (max-width: 600px) {
+//     color: red;
+//     font-size: 26px;
+//   }
+// }
+//mixin - include
+//mixin khai bao ham giong nhw function - can goi mixin thi @include
+// @mixin textStyle($color, $borderColor) {
+//   color: $color;
+//   border: 1px solid $borderColor;
+//   @content; //cho nhung dong css muon viet them trong iclude
+// }
+// h1 {
+//   @include textStyle(red, green) {
+//     text-decoration: underline;
+//     font-style: italic;
+//   }
+// }
+// h2 {
+//   @include textStyle(yellow, blue);
+// }
+//----------------------------------------
+//xs -> extra small =>    < 576px
+//sm -> small small =>    >= 576px
+//md -> medium small =>   >= 768px
+//lg -> large small =>    >= 992px
+//xl -> extra large =>    >= 1200px
+@import "media";
+* {
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  background: none;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  @include xs {
+    padding: 0px 10px;
+  }
+  @include sm {
+    padding: 0px 10px;
+  }
+  @include xl {
+    padding: 0px;
+  }
+}
+header {
+  box-shadow: 0px 2px 4px -2px #333;
+  padding: 20px 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      a {
+        font-size: 30px;
+        color: #1abc9c;
+      }
+    }
+    nav {
+      transition: 0.4s;
+      &.active {
+        transform: translateX(0);
+      }
+      @include xs {
+        position: fixed;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        background: #1abc9c;
+        transform: translateX(100%);
+      }
+      @include sm {
+        position: fixed;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        background: #1abc9c;
+        transform: translateX(100%);
+      }
+      @include md {
+        all: unset;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include xs {
+          flex-direction: column;
+        }
+        @include sm {
+          flex-direction: column;
+        }
+        @include md {
+          flex-direction: row;
+        }
+        li {
+          @include md {
+            margin-left: 20px;
+          }
+          width: 100%;
+          a {
+            display: block;
+            color: #333;
+            @include xs {
+              text-align: center;
+              padding: 10px 0;
+              transition: 0.5s;
+              &:hover {
+                color: white;
+                background-color: #333;
+              }
+            }
+            @include sm {
+              text-align: center;
+              padding: 10px 0;
+              transition: 0.5s;
+              &:hover {
+                color: white;
+                background-color: #333;
+              }
+            }
+            @include md {
+              all: unset;
+              cursor: pointer;
+              &:hover {
+                color: white;
+                background-color: #333;
+              }
+            }
+          }
+        }
+      }
+    }
+    button {
+      cursor: pointer;
+      font-size: 20px;
+      @include xs {
+        display: block;
+      }
+      @include sm {
+        display: block;
+      }
+      @include md {
+        display: none;
+      }
+    }
+  }
+}

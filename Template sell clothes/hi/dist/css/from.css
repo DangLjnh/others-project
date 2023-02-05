@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form {
+  padding: 10px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(51, 51, 51, 0.3);
+          box-shadow: 0px 0px 4px 0px rgba(51, 51, 51, 0.3);
+}
+
+form .form-title .book {
+  padding: 5px;
+  color: white;
+  background-color: blue;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=from.css.map */

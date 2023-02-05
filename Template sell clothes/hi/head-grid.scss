@@ -1,0 +1,23 @@
+@import "grid";
+@import "media";
+@import "variables";
+@import "animation";
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.intro-section {
+  margin-top: 50px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .container {
+    .row {
+      .col-item {
+        margin: 0 10px;
+      }
+    }
+  }
+}

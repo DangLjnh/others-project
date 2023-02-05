@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+body .toggle {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+body .toggle:hover span {
+  -webkit-transform: rotate(360deg) rotate(90deg);
+          transform: rotate(360deg) rotate(90deg);
+}
+
+body .toggle:hover span:nth-child(1) {
+  width: 120px;
+  -webkit-transform: translateY(0px) rotate(360deg) rotate(45deg);
+          transform: translateY(0px) rotate(360deg) rotate(45deg);
+}
+
+body .toggle:hover span:nth-child(1)::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 120px;
+  height: 12px;
+  background-color: #1863ff;
+  border-radius: 12px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+body .toggle:hover span:nth-child(2) {
+  width: 120px;
+  -webkit-transform: translateY(0px) rotate(315deg);
+          transform: translateY(0px) rotate(315deg);
+}
+
+body .toggle span {
+  display: inline-block;
+  position: absolute;
+  width: 120px;
+  height: 12px;
+  background-color: #1863ff;
+  border-radius: 12px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .toggle span:nth-child(1) {
+  -webkit-transform: translateY(-45px);
+          transform: translateY(-45px);
+  left: 45px;
+  width: 90px;
+  height: 12px;
+}
+
+body .toggle span:nth-child(2) {
+  -webkit-transform: translateY(45px);
+          transform: translateY(45px);
+  left: 45px;
+  width: 60px;
+  height: 12px;
+}
+/*# sourceMappingURL=toggle.css.map */

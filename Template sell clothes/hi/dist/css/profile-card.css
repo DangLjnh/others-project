@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  height: 100vh;
+  background: linear-gradient(45deg, #00853e, #50c878);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card {
+  color: #fff;
+  width: 300px;
+  height: 400px;
+  background-color: #242628;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+body .card .card-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid #f2726a;
+  overflow: hidden;
+  margin: 25px auto;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .card .card-image:hover {
+  width: 100%;
+  height: 100%;
+  border-radius: unset;
+  -o-object-fit: unset;
+     object-fit: unset;
+  border: none;
+  margin-top: 0;
+}
+
+body .card .card-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+body .card .card-title {
+  margin-top: -10px;
+  text-align: center;
+}
+
+body .card .card-title p {
+  color: #f2726a;
+}
+
+body .card .card-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card .card-social a {
+  margin: 25px 20px;
+  color: #fff;
+}
+
+body .card .card-social a:hover {
+  color: #f2726a;
+}
+
+body .card .card-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .card .card-contact button {
+  border: 1px solid #f2726a;
+  background-color: #242628;
+  color: #fff;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+body .card .card-contact button:hover {
+  background-color: #f2726a;
+}
+/*# sourceMappingURL=profile-card.css.map */

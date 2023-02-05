@@ -1,0 +1,38 @@
+@import "media";
+@import "grid";
+@import "variables";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  @include xs {
+    padding: 10px;
+  }
+  @include sm {
+    padding: 10px;
+  }
+  @include md {
+    padding: 10px;
+  }
+  @include lg {
+    padding: 10px;
+  }
+  @include xl {
+    padding: 10px;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.products {
+  .contaier {
+    .row {
+      margin: 10px;
+      .col-item {
+        box-shadow: 0 0 4px -2px #333;
+      }
+    }
+  }
+}

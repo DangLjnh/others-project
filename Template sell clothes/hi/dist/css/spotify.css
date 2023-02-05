@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: black;
+  padding: 15px 0;
+}
+
+header .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .banner .logo {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+header .banner .logo i {
+  font-size: 46px;
+}
+
+header .banner .logo p {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 23px;
+}
+
+header .banner nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .banner nav ul li {
+  margin-left: 35px;
+  color: white;
+}
+
+header .banner nav ul li a {
+  padding: 25px 0;
+  color: white;
+  letter-spacing: 0.3px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+header .banner nav ul li a:hover {
+  color: #1ed760;
+}
+
+.spotify-premium {
+  background-color: #96f0b6;
+}
+
+.spotify-premium .banner {
+  padding: 125px 0 60px 0;
+}
+
+.spotify-premium .banner .container {
+  background: url(https://i.scdn.co/image/ab678e040000ed3a617c2136f28e5e3e3107e9db) no-repeat center right/contain;
+  background-size: 400px 400px;
+}
+
+.spotify-premium .banner .container .premium-content {
+  width: 70%;
+  color: #202f72;
+}
+
+.spotify-premium .banner .container .premium-content .title {
+  margin: -40px 0 60px;
+}
+
+.spotify-premium .banner .container .premium-content .promotion {
+  width: 80%;
+}
+
+.spotify-premium .banner .container .premium-content .desc {
+  width: 88%;
+  margin: 30px 0;
+}
+
+.spotify-premium .banner .container .premium-content .btn:hover {
+  background-color: #202f53;
+}
+
+.spotify-premium .banner .container .premium-content p {
+  margin-top: 40px;
+  width: 80%;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  font-weight: 400;
+}
+
+.spotify-premium .banner .container .premium-content p span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.spotify-wrapped {
+  background: #f46ebe url(https://www-growth.scdn.co/static/home/wrapped-homepage-banner-graphic-desktop.svg) right center no-repeat;
+  background-size: 2042px;
+  background-position: right -1092px bottom -428px;
+}
+
+.spotify-wrapped .banner {
+  padding: 125px 0 80px 0;
+}
+
+.spotify-wrapped .banner .wrapped-content {
+  width: 45.2%;
+  color: #202f72;
+}
+
+.spotify-wrapped .banner .wrapped-content .title {
+  margin: -40px 0 60px;
+}
+
+.spotify-wrapped .banner .wrapped-content .promotion {
+  margin: -20px 0 20px;
+}
+
+.spotify-wrapped .banner .wrapped-content .download {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  padding-top: 40px;
+}
+
+.spotify-wrapped .banner .wrapped-content .download p {
+  font-size: 8px;
+}
+
+.spotify-wrapped .banner .wrapped-content .download span {
+  letter-spacing: 0.5px;
+  font-size: 16px;
+}
+
+.spotify-wrapped .banner .wrapped-content .download .app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px 12px 5px;
+  background-color: black;
+  margin-right: 15px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+.spotify-wrapped .banner .wrapped-content .download .app i {
+  font-size: 25px;
+  margin: 0 5px 0 -3px;
+}
+
+.spotify-wrapped .banner .wrapped-content a {
+  display: inline-block;
+  text-decoration: underline;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.spotify-wrapped .banner .wrapped-content a:active {
+  color: #1ed760;
+}
+
+.spotify-free {
+  color: #1ed760;
+  background-color: #2941ab;
+  background-image: url(https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg);
+  background-repeat: no-repeat;
+  background-position: right -30px top 0px;
+}
+
+.spotify-free .banners {
+  padding: 180px 0 185px;
+}
+
+.spotify-free .banners .free-content {
+  margin-top: -125px;
+}
+
+.spotify-free .banners .free-content .title {
+  margin-bottom: 35px;
+}
+
+.spotify-free .banners .free-content .promotion {
+  margin-bottom: 50px;
+}
+
+.spotify-free .banners .free-content .desc {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.spotify-free .banners .free-content .btn {
+  color: #2941ab;
+  background-color: #1ed760;
+}
+
+.spotify-free .banners .free-content .btn:hover {
+  background-color: #1ed770;
+}
+
+footer {
+  background-color: black;
+}
+
+footer .banner {
+  padding: 70px 0;
+}
+
+footer .banner nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .banner nav .logo {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .banner nav .logo i {
+  font-size: 50px;
+}
+
+footer .banner nav .logo p {
+  margin-top: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 23px;
+}
+
+footer .banner nav .table {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .banner nav .table dl {
+  margin-right: 25px;
+}
+
+footer .banner nav .table dl dt {
+  width: 170px;
+  height: 42px;
+  color: #919496;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+footer .banner nav .table dd {
+  margin-bottom: 20px;
+}
+
+footer .banner nav .table dd a {
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+footer .banner nav .table dd a:hover {
+  color: #1ed760;
+}
+
+footer .banner nav .social {
+  margin: 25px 0 0 -18px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .banner nav .social .fa-brands {
+  margin-right: 15px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #222;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+footer .banner nav .social .fa-instagram:hover {
+  color: #1ed760;
+}
+
+footer .banner nav .social .fa-facebook-f:hover {
+  color: #1ed760;
+}
+
+footer .banner nav .social .fa-twitter:hover {
+  color: #1ed760;
+}
+
+footer .banner .vietnam {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  color: #919496;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .banner .vietnam i {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+footer .banner .vietnam span {
+  font-size: 12px;
+}
+
+footer .banner .vietnam span:hover {
+  cursor: pointer;
+  color: #1ed760;
+}
+
+footer .banner .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #919496;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+footer .banner .list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .banner .list ul li {
+  letter-spacing: 0.1px;
+  margin-right: 20px;
+}
+
+footer .banner .list ul li:hover {
+  cursor: pointer;
+  color: #1ed760;
+}
+
+.title {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 16px;
+}
+
+.promotion {
+  line-height: 1.3;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.desc {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.btn {
+  cursor: pointer;
+  color: #96f0b6;
+  background-color: #202f72;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 15px 35px;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+/*# sourceMappingURL=spotify.css.map */

@@ -1,0 +1,19 @@
+.contaier {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.products .contaier .row {
+  margin: 10px;
+}
+
+.products .contaier .row .col-item {
+  -webkit-box-shadow: 0 0 4px -2px #333;
+          box-shadow: 0 0 4px -2px #333;
+}
+/*# sourceMappingURL=grid.css.map */

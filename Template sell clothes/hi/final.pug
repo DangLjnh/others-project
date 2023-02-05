@@ -1,0 +1,663 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='./dist/css/reset.css')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.1/css/boxicons.min.css')
+  link(href='https://fonts.googleapis.com/css2?family=Poppins&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='./dist/css/owl.carousel.min.css')
+  link(rel='stylesheet' href='./dist/css/owl.theme.default.min.css')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css')
+  link(rel='stylesheet' href='./dist/css/final.css')
+  title Riode - Ultimate eCommerce Template
+  link(rel='icon' href='favicon.png')
+header.header
+  .header-top-banner
+    .container
+      .header-top
+        .header-top-left
+          p Welcome to Riode store message or remove it!
+        nav.header-top-right
+          ul
+            li
+              .dropdown
+                | USD
+                i.bx.bx-chevron-down
+                .dropdown-content
+                  a(href='#') USD
+                  a(href='#') EUR
+            li
+              .dropdown
+                | ENG
+                i.bx.bx-chevron-down
+                .dropdown-content
+                  a(href='') ENG
+                  a(href='') VN
+            li.line
+            li.contact-us
+              i.fa-solid.fa-location-dot
+              p Contact Us
+            li.line
+            li.need-help
+              i.bx.bx-info-circle
+              p Need Help
+  .header-bot-banner
+    .header-bot
+      .container
+        button.bot-left-btn(href='')
+          i.fa-solid.fa-bars
+        .hide-nav
+          .hide-search
+            .input-search
+              input(type='text' name='' id='' placeholder='Search your keyword...' onblur='')
+              button
+                i.fa-solid.fa-magnifying-glass
+          ul
+            li
+              p HOME
+            li.categories
+              p CATEGORIES
+              i.fa-solid.fa-chevron-right
+            .varitation
+              .varitation-item
+                a(href='') VARIATION 1
+                div(style='display: none')
+                  a(href='') Classic Filter
+                  a(href='') Left Toggle Filter
+                  a(href='') Right Toggle Sidebar
+                  a(href='') Horizontal Filter
+                  a(href='') Navigation Filter
+                  a(href='') Off-Canvas Filter
+                  a(href='') Top Banner
+                  a(href='') Inner Top Banner
+                  a(href='')
+                    | With
+                    | Bottom Block
+                  a(href='') Category In Page Header
+              a.varitation-item VARIATION 2
+              a.varitation-item VARIATION 3
+            li
+              p PRODUCTS
+              i.fa-solid.fa-chevron-right
+            li
+              p PAGES
+              i.fa-solid.fa-chevron-right
+            li
+              p BLOG
+              i.fa-solid.fa-chevron-right
+            li
+              p ELEMENTS
+              i.fa-solid.fa-chevron-right
+            li
+              p BUY RIODE!
+        .header-bot-left
+          a(href='#')
+            img(src='logo.png' alt='')
+        .header-bot-center
+          nav
+            ul
+              li Home
+              li.dropdown-megamenu
+                | Categories
+                i.bx.bx-chevron-down
+                .megamenu
+                  .row
+                    .col-3
+                      .col-item(style='margin-top: 10px')
+                        a(href='') VARIATIONS 1
+                        a(href='')
+                          | Classic
+                          | Filter
+                        a(href='') Left Toggle Filter
+                        a(href='') Right Toggle Sidebar
+                        a(href='') Horizontal Filter
+                        a(href='') Navigation Filter
+                        a(href='')
+                          | Off-Canvas
+                          | Filter
+                        a(href='') Top Banner
+                        a(href='') Inner Top Banner
+                        a(href='')
+                          | With Bottom
+                          | Block
+                        a(href='') Category In Page Header
+                    .col-3
+                      .col-item(style='margin-top: 10px')
+                        a(href='') VARIATIONS 2
+                        a(href='')
+                          | 3 Columns
+                          | Mode
+                        a(href='') 4 Columns Mode
+                        a(href='') 5 Columns Mode
+                        a(href='')
+                          | 6 Columns
+                          | Mode
+                        a(href='') 7 Columns Mode
+                        a(href='') 8 Columns Mode
+                        a(href='') List Mode
+                        a(href='') Pagination
+                        a(href='') Infinite Ajaxscroll
+                        a(href='') Loadmore Button
+                    .col-3
+                      .col-item(style='margin-top: 10px')
+                        a(href='') VARIATIONS 3
+                        a(href='')
+                          | Category Grid
+                          | Shop
+                        a(href='') Category + Products
+                        a(href='') Shop Default 1
+                        a(href='')
+                          | Shop Default
+                          | 2
+                        a(href='') Shop Default 3
+                        a(href='') Shop Default 4
+                        a(href='') Shop Default 5
+                        a(href='') Shop Default 6
+                        a(href='') Shop Default 7
+                        a(href='') Shop Default 8
+                    .col-3
+                      ul.col-item
+                        img(src='banner-1.jpg' alt='')
+                        .sale
+                          h4 Sale.
+                          .sale-percent
+                            span UPTO
+                            h3 70% Off
+                          .sale-shopnow
+                            a
+                              | SHOP NOW 
+                              i.bx.bx-right-arrow-alt
+              li.dropdown-megamenu
+                | Products
+                i.bx.bx-chevron-down
+                .megamenu
+                  .row
+                    .col-3
+                      .col-item(style='margin-top: 10px')
+                        a(href='') PRODUCT PAGES
+                        a(href='')
+                          | Simple
+                          | Product
+                        a(href='') Featured &amp; On Sale
+                        a(href='') Variable Product
+                        a(href='') Variation Swatch Product
+                        a(href='') Grouped Product
+                        a(href='')
+                          | External
+                          | Product
+                        a(href='') In Stock Product
+                        a(href='') Out of Stock Product
+                        a(href='')
+                          | Upsell
+                          | Products
+                        a(href='') Cross Sell Products
+                    .col-3
+                      .col-item(style='margin-top: 10px')
+                        a(href='') PRODUCT LAYOUTS
+                        a(href='')
+                          | Vertical
+                          | Thumb
+                        a(href='') Horizontal Thumb
+                        a(href='') Gallery Type
+                        a(href='')
+                          | Grid
+                          | Images
+                        a(href='') Masonry Images
+                        a(href='') Sticky Info
+                        a(href='')
+                          | Left &amp; Right
+                          | Sticky
+                        a(href='') With Left Sidebar
+                        a(href='') With Right Sidebar
+                        a(href='')
+                          | Full
+                          | Width Layout
+                    .col-3
+                      .col-item(style='margin-top: 10px')
+                        a(href='') PRODUCT FEATURES
+                        a(href='')
+                          | Sale
+                          | Countdown
+                        a(href='') Hurry Up Notification
+                        a(href='') Attribute Guide
+                        a(href='')
+                          | Add
+                          | Cart Sticky
+                        a(href='') Labels on Thumbnail
+                        a(href='') More Description Tabs
+                        a(href='') Data In Accordion
+                        a(href='') Data Inside
+                        a(href='') Video Thumbnail
+                        a(href='') 360 Degree Thumbnail
+                    .col-3
+                      .col-item
+                        img(src='banner-2.jpg' alt='')
+                        .sunglasses
+                          h2 SUNGLASSES
+                          p $23.00 - $120.00
+              li.dropdown-smallmenu
+                | Pages
+                i.bx.bx-chevron-down
+                .small-menu
+                  a(href='') About
+                  a(href='') Contact Us
+                  a(href='') My Account
+                  a(href='') Wishlist
+                  a(href='') FAQs
+                  .error-dropdown
+                    a(href='') Error 404
+                    i.bx.bx-chevron-right
+                    .error-menu
+                      a(href='') Error 404-1
+                      a(href='') Error 404-2
+                      a(href='')
+                        | Error
+                        | 404-3
+                      a(href='') Error 404-4
+                  a(href='') Coming Soon
+              li.dropdown-extramenu
+                | Elements
+                i.bx.bx-chevron-down
+                .extramenu
+                  .row
+                    .col-3
+                      .col-item(style='margin-top: 5px')
+                        a(href='') ELEMENTS 1
+                        a(href='') Accordions
+                        a(href='') Alert &amp; Notification
+                        a(href='') Banner Effect
+                        a(href='') Banner
+                        a(href='') Blog Posts
+                        a(href='') Breadcrumb
+                        a(href='') Buttons
+                        a(href='')
+                          | Call to
+                          | Action
+                        a(href='') Countdown
+                    .col-3
+                      .col-item(style='margin-top: 5px')
+                        a(href='') ELEMENTS 2
+                        a(href='') Counter
+                        a(href='') Creative Grid
+                        a(href='') Entrance Effect
+                        a(href='') Floating
+                        a(href='') Hotspot
+                        a(href='') Icon Boxes
+                        a(href='') Icons
+                        a(href='') Image box
+                        a(href='') Instagrams
+                    .col-3
+                      .col-item(style='margin-top: 5px')
+                        a(href='') ELEMENTS 3
+                        a(href='')
+                          | Product
+                          | Category
+                        a(href='') Products
+                        a(href='') Products + Banner
+                        a(href='')
+                          | Products +
+                          | Grid
+                        a(href='') Product Single
+                        a(href='') Products + Tab
+                        a(href='')
+                          | Single
+                          | Product
+                        a(href='') Slider
+                        a(href='') Social Icons
+                    .col-3
+                      .col-item(style='margin-top: 5px')
+                        a(href='') ELEMENTS 4
+                        a(href='') Subcategory
+                        a(href='') Svg Floating
+                        a(href='') Tabs
+                        a(href='') Testimonials
+                        a(href='') Title
+                        a(href='') Typography
+                        a(href='') Vendor
+                        a(href='') Video
+              li.line
+              li.search-box
+                i.fa-solid.fa-magnifying-glass
+                .input-search
+                  input(type='text' name='' id='' placeholder='Search..' onblur='')
+                  button
+                    i.fa-solid.fa-magnifying-glass
+        .header-bot-right
+          nav
+            ul
+              li.header-bot-phone.xs
+                i.bx.bx-phone
+                p (800) 414-1769
+              li
+                i.bx.bx-user
+              li.header-bot-heart
+                i.bx.bx-heart
+              li.header-bot-cart
+                i.bx.bx-shopping-bag
+                .dropdown-cart
+                  .dropdown-box
+                    .product-cart
+                      img(src='product-1.jpg' alt='')
+                      .product-cart-detail
+                        h2 Riode White Trends
+                        p 1 X
+                        span $21.00
+                      .cart-close
+                        i.fa-solid.fa-xmark
+                    .product-cart
+                      img(src='product-2.jpg' alt='')
+                      .product-cart-detail
+                        h2 Dark Blue Women&apos;s Leomora Hat
+                        p 1 X
+                        span $118.00
+                      .cart-close
+                        i.fa-solid.fa-xmark
+                    .total
+                      p Subtotal:
+                      span $139.00
+                    .view-cart
+                      p View Cart
+                    .btn-cart
+                      button GO TO CHECKOUT
+main.main-content
+  section.intro-section
+    .container
+      .row
+        .col-item.col-xl-6.col-lg-6.grid-item-left.col-sm-8
+          .owl-carousel.intro-slide.owl-theme
+            div
+              img(src='1-1.jpg' alt='')
+              .banner-content
+                h4.banner-subttle New Arrivals
+                h3.banner-title Biometric Fingerprints Padlock
+                a.btn-link
+                  | SHOP NOW 
+                  i.bx.bx-right-arrow-alt
+              h6
+            .owl-2
+              img(src='1-2.jpg' alt='' style='border-radius: 3px;')
+              .banner-content
+                h4.banner-subttle New Arrivals
+                h3.banner-title Fashionable partner
+                a.btn-link
+                  | SHOP NOW 
+                  i.bx.bx-right-arrow-alt
+              h6
+        .col-item.col-xl-6.col-lg-6.col-sm-4
+          .row.grid-items-right-top
+            .col-item.col-6.grid-item-right.col-sm-12
+              img(src='2.jpg' alt='')
+              h6
+              .categories-item
+                h4 For Fitness
+            .col-item.col-6.grid-item-right.col-sm-12.brand-sale
+              img(src='3.jpg' alt='')
+              h6
+              .categories-item
+                h4 Brand Sale
+          .row.grid-items-right-bot
+            .col-item.col-xl-6.grid-item-right.grid-item-right-bot.col-sm-4
+              img(src='4.jpg' alt='')
+              h6
+              .categories-item
+                h4 Top Watches
+            .col-item.col-xl-6.grid-item-right.grid-item-right-bot.col-sm-4
+              img(src='5.jpg' alt='')
+              h6
+              .categories-item
+                h4 Sneakers
+      .row.grid-items-bot
+        .col-item.col-6.grid-item-left-bot
+          img(src='6.jpg' alt='')
+          h6
+          .categories-item
+            h4 Springwear Sale
+            p
+              | Our vision is to supply the best
+              | equipment &amp; expertise within the arb
+              | most importantly, to keep our
+              | customers at the heart of all we do.
+        .col-item.col-6
+          .row
+            .col-item.col-6.grid-item-right
+              img(src='7.jpg' alt='')
+              h6
+              .categories-item
+                h4 For kids
+            .col-item.col-6.grid-item-right.hey
+              img(src='8.jpg' alt='')
+              h6
+              .categories-item
+                h4 HEY!
+                p
+                  | Spend $60 and get FREE US
+                  | mainland delivery*
+                  | (Order under $60 only /$4.75)
+  section.new-arrivals
+    .container
+      .arrivals-top
+        h4 New Arrivals
+        a(href='')
+          | VIEW MORE 
+          i.bx.bx-right-arrow-alt
+      .arrivals-bot
+        .owl-carousel.new-arrivals-slide.owl-theme
+  section.category-section
+    .container
+      .row
+        .col-item.col-4
+          .category-left.cc
+            img(src='14.jpg' alt='')
+            button Shop Men
+        .col-item.col-4
+          .category-middle
+            img(src='15.jpg' alt='')
+            .banner-content
+              h4 Black Friday Sale
+              h3 UP TO 70% OFF
+              h5 EVERYTHING
+              a(href='') SHOP NOW
+        .col-item.col-4
+          .category-right
+            img(src='16.jpg' alt='')
+            button Shop Women
+  section.our-featured
+    .container
+      .featured-top
+        h4 Our Featured
+        a(href='')
+          | VIEW MORE 
+          i.bx.bx-right-arrow-alt
+      .featured-bot
+        .owl-carousel.featured-slide
+  section.video-banner
+    .banner-video(style='background-image: url(banner-3.jpg);')
+      .banner-content-video
+        h4 Brand experience
+        h3 Premium for the pros 2022
+        button.play-video
+          i.fa-solid.fa-play
+        .mfp-container
+          .mfp-content
+            video.video-promotion(src='https://d-themes.com/html/riode/video/memory-of-a-woman.mp4' controls='')
+  section.lastest-news
+    .container
+      .news-top
+        h4 Lastest News
+        a(href='')
+          | VIEW MORE 
+          i.bx.bx-right-arrow-alt
+      .news-bot.owl-carousel
+        .news-item
+          .news-banner
+            img(src='21.jpg' alt='')
+          .news-detail
+            .news-meta
+              | on 
+              a.news-date(href='') Sep 6 , 2020
+              |  |
+              a.news-comment
+                span
+                  | 3
+                |  Comments
+            h4.news-title Just a Cool Blog Post With Images
+            a.read-more(href='#')
+              | Read More 
+              i.bx.bx-right-arrow-alt
+        .news-item
+          .news-banner
+            img(src='22.jpg' alt='')
+          .news-detail
+            .news-meta
+              | on 
+              a.news-date(href='') Sep 6 , 2020
+              |  |
+              a.news-comment
+                span
+                  | 3
+                |  Comments
+            h4.news-title Riode store Now Open
+            a.read-more(href='#')
+              | Read More 
+              i.bx.bx-right-arrow-alt
+        .news-item
+          .news-banner
+            img(src='23.jpg' alt='')
+          .news-detail
+            .news-meta
+              | on 
+              a.news-date(href='') Sep 6 , 2020
+              |  |
+              a.news-comment
+                span
+                  | 3
+                |  Comments
+            h4.news-title Quick riode store Service Guide
+            a.read-more(href='#')
+              | Read More 
+              i.bx.bx-right-arrow-alt
+  section.discount-banner
+    .container
+      .banner-discount(style='background-image: url(banner-4.jpg);')
+        .discount-content
+          h4.discount-subtitle UP TO 15% DISCOUNT
+          h3.discount-title FOR FITNESS COLLECTION
+          button.btn-discount
+            a.read-more(href='#')
+              | SHOP NOW 
+              i.bx.bx-right-arrow-alt
+  section.grid-product
+    .container
+      .row
+        .col-item.col-3.best-week
+          .product-title
+            h4 Best of the Week
+        .col-item.col-3.sale-product
+          .product-title
+            h4 Sale Products
+        .col-item.col-3.last-product
+          .product-title
+            h4 Latest Products
+        .col-item.col-3.feature-product
+          .product-title
+            h4 Feature Product
+footer
+  .footer-middle
+    .container
+      .row
+        .col-8
+          .col-item
+            .row
+              .col-4
+                .col-item
+                  h4 GET TO KNOW US
+                  ul.widget-body
+                    li About Riode
+                    li Careers
+                    li Affiliate Program
+                    li Show Hosts
+                    li Riode Cares
+                    li Submit Your Product
+              .col-4
+                .col-item
+                  h4 ACCOUNT
+                  ul.widget-body
+                    li My Account
+                    li Our Guarantees
+                    li Terms And Conditions
+                    li Privacy Policy
+                    li Intellectual Property Claims
+                    li Site Map
+              .col-4
+                .col-item
+                  h4 GET HELP
+                  ul.widget-body
+                    li Shipping &amp; Delivery
+                    li Order Status
+                    li Brand
+                    li Returns
+                    li Payment Options
+                    li Contact Us
+        .col-4
+          .col-item
+            h4 NEWSLETTER
+            .widget-body
+              p Sign up for newsletter today
+              form(action='')
+                input(type='email' placeholder='Email address here...')
+                button
+                  a(href='') SUBCRIBE
+                  i.fa-solid.fa-arrow-right
+            .info
+              .social-link
+                i.fa-brands.fa-facebook-f
+                i.fa-brands.fa-twitter
+                i.fa-brands.fa-linkedin-in
+              img(src='payment.png' alt='')
+  .footer-bottom
+    p Riode eCommerce &copy; 2022. All Rights Reserved
+.list-toggle
+  ul
+    li
+      .in.house
+        i.fa-solid.fa-house-chimney
+        a(href='') Demos
+    li
+      .in.circle-info
+        i.fa-solid.fa-circle-info
+        a(href='') Documentation
+    li
+      .in.star
+        i.fa-solid.fa-star
+        a(href='') Reviews
+    li
+      .in.cart
+        i.fa-solid.fa-cart-shopping
+        a.buy-cart(href='') Buy Now!
+.scroll-top
+  i.fa-solid.fa-arrow-up
+.modal
+  .modal-wrapper(style='background-image: url(popup.jpg);')
+    button.btn-close-modal
+      i.fa-solid.fa-xmark
+    .modal-detail
+      h3
+        | UP TO 
+        span 20% OFF
+      h2
+        | Sign up to 
+        span RIODE
+      p
+        | Subscribe to the Riode eCommerce newsletter to receive timely updates from your favorite
+        | products.
+      .input-group
+        input(type='text' name='' id='' placeholder='Enter email here...')
+        button.btn-submit Submit
+      .dont-show
+        input#show(type='checkbox' name='' checked='')
+        label(for='show') Don&apos;t show this popup again
+script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js')
+script(src='./script/owl.carousel.min.js')
+script(src='./script/final.js')

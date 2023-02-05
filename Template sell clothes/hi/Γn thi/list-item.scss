@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: lightgray;
+  padding: 20px;
+  .item {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 10px;
+    .item-content {
+      border: 1px solid #333;
+      .main-image {
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+      h2 {
+        a {
+          font-size: 20px;
+          font-weight: 600;
+          color: red;
+        }
+      }
+      .desc {
+        display: block;
+      }
+    }
+  }
+}

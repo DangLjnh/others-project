@@ -1,0 +1,74 @@
+body {
+  background-color: rgba(#333, 0.09);
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Helvetica;
+  width: 350px;
+}
+.container .content {
+  padding: 30px;
+  border: 2px solid #333;
+  background-color: #fff;
+}
+.container .content .content-header h1 {
+  padding-bottom: 10px;
+}
+.container .content .content-register {
+  color: rgba(#333, 0.8);
+  font-weight: 600;
+}
+.container .content .content-register .input {
+  margin-bottom: 20px;
+}
+.container .content .content-register h2 {
+  margin-bottom: 5px;
+}
+.container .content .content-register input {
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid rgba(#333, 0.6);
+  width: 100%;
+}
+.container .content .content-register input:focus {
+  outline: none;
+  border-bottom: 2px solid #333;
+}
+.container .content .check-agree {
+  color: rgba(#333, 0.8);
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  transition: 0.5s;
+}
+.container .content .sign {
+  padding: 30px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .content .sign .sign-up input {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-image: linear-gradient(0, hotpink, pink);
+  padding: 10px 60px;
+  border-radius: 20px;
+}
+.container .content .sign .sign-in {
+  display: flex;
+  cursor: pointer;
+}
+.container .content .sign .sign-in a {
+  color: rgba(#333, 0.8);
+  margin-right: 5px;
+  transition: 0.5s;
+}
+::placeholder {
+  color: rgba(#333, 0.5);
+  opacity: 1;
+}

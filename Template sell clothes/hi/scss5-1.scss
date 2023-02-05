@@ -1,0 +1,92 @@
+.square-red {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  position: relative;
+  .square-green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    .square-yellow {
+      width: 10px;
+      height: 10px;
+      background-color: yellow;
+      position: absolute;
+    }
+    .square-black-xs {
+      width: 20px;
+      height: 20px;
+      background-color: black;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+  .square-black-s {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+.square-lightyellow {
+  margin: 80px 60px;
+  background-color: #ffe6cc;
+  border: 1px solid yellow;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  .square-blue {
+    background-color: #dae8fc;
+    border: 1px solid blue;
+    position: absolute;
+    margin: -1px;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 0;
+  }
+  .p-left {
+    margin: -1px;
+    bottom: 0;
+    left: 0;
+  }
+  .p-right {
+    margin: -1px;
+    bottom: 0;
+    right: 0;
+  }
+  .w-right {
+    margin: -1px;
+    right: 0;
+    top: 0;
+  }
+  .w-left {
+    margin: -1px;
+    right: 0;
+    bottom: 0;
+  }
+  .w-center {
+    margin: -1px;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .square-purple {
+    background-color: #ede;
+    border: 1px solid purple;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+  }
+  .square-white {
+    background-color: #fff;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+  }
+}

@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #3f3752;
+}
+
+body .container {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
+body .container .item {
+  position: relative;
+  width: 350px;
+  height: 280px;
+  background-color: #51446e;
+  overflow: hidden;
+}
+
+body .container .item:hover .icon {
+  top: 30px;
+  left: calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+body .container .item:hover .icon ion-icon {
+  font-size: 2em;
+}
+
+body .container .item:hover .content {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+body .container .item .icon {
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--i);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+}
+
+body .container .item .icon ion-icon {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 5em;
+}
+
+body .container .item .content {
+  position: relative;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+body .container .item .content h2 {
+  margin: 10px 0 5px;
+}
+
+body .container .item .content p {
+  font-weight: 300;
+  line-height: 1.2em;
+}
+/*# sourceMappingURL=box-hover.css.map */

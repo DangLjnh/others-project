@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  img {
+    margin: -5px 0 0 190px;
+    width: 135px;
+    height: 80px;
+    cursor: pointer;
+  }
+  nav {
+    margin-right: 155px;
+    ul {
+      display: flex;
+      li {
+        a {
+          display: inline-block;
+          margin: 30px 35px 30px 0;
+          color: white;
+          padding: 20px 0;
+          font-weight: 600;
+          font-size: 15px;
+          letter-spacing: 0.2px;
+          &:hover {
+            color: #1ed760;
+          }
+        }
+      }
+    }
+  }
+}
+.spotify-premium {
+  background-color: #96f0b6;
+  height: 635px;
+  display: flex;
+  color: #202f72;
+  align-items: center;
+  justify-content: center;
+  .premium-content {
+    margin: -10px 0 0 10px;
+    width: 710px;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    h5 {
+      display: inline-block;
+      margin: 30px 0 10px;
+    }
+    h2 {
+      width: 530px;
+    }
+    a {
+      display: inline-block;
+      text-transform: uppercase;
+      background-color: #202f72;
+      color: #96f0b6;
+      padding: 18px 50px;
+      margin-bottom: 25px;
+      font-weight: 600;
+      font-size: 13px;
+      border-radius: 26px;
+      letter-spacing: 0.2em;
+      &:hover {
+        z-index: 1;
+        padding: 20px 55px;
+        background-color: #202f53;
+      }
+    }
+    p {
+      width: 620px;
+      margin-top: 20px;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.25px;
+      font-weight: 400;
+      span {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+  img {
+    margin-left: 50px;
+    width: 400px;
+    height: 400px;
+  }
+}
+.spotify-wrapped {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 605px;
+  background-color: #f46ebe;
+  background-image: url(https://www-growth.scdn.co/static/home/wrapped-homepage-banner-graphic-tablet-mobile.svg);
+  background-position: left 800px bottom -406px, right 0 top 0;
+  background-repeat: no-repeat;
+  .wrapped-content {
+    color: #202f72;
+    margin: -5px 0 0 -440px;
+    width: 710px;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    h2 {
+      width: 460px;
+    }
+    h4 {
+      width: 515px;
+    }
+    .download {
+      cursor: pointer;
+      display: flex;
+      color: white;
+      p {
+        font-size: 8px;
+      }
+      span {
+        letter-spacing: 0.5px;
+        font-size: 16px;
+      }
+      .app {
+        padding: 10px 12px 8px;
+        background-color: black;
+        margin-right: 15px;
+        border-radius: 8px;
+        border: 1px solid gray;
+        i {
+          margin-left: -3px;
+        }
+        .down-apple {
+          margin: -20px 0 0 20px;
+        }
+        .down-google {
+          margin: -18px 0 0 20px;
+        }
+      }
+    }
+    a {
+      display: inline-block;
+      text-decoration: underline;
+      font-weight: 500;
+      margin-top: 40px;
+      &:active {
+        color: #1ed760;
+      }
+    }
+  }
+}
+.spotify-free {
+  font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+  color: #1ed760;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center center;
+  background-size: -300px 195%;
+  background-color: #2941ab;
+  background-image: url(https://content-tooling.spotifycdn.com/images/af63e367-ad10-4063-a8e2-5a50ae2a4b28_lie_circles-mobile.svg);
+  background-repeat: no-repeat;
+  height: 605px;
+  .free-content {
+    display: inline-block;
+    margin: -100px 0 0 -380px;
+    h4 {
+      width: 540px;
+    }
+    a {
+      display: inline-block;
+      text-transform: uppercase;
+      background-color: #1ed760;
+      color: #2941ab;
+      padding: 18px 50px;
+      margin-bottom: 30px;
+      font-weight: 700;
+      font-size: 13px;
+      border-radius: 26px;
+      letter-spacing: 0.2em;
+      &:hover {
+        z-index: 1;
+        padding: 20px 55px;
+        background-color: #1ed770;
+      }
+    }
+  }
+}
+footer {
+  height: 530px;
+  background-color: black;
+  nav {
+    display: flex;
+    padding: 75px 185px;
+    img {
+      margin: -20px 60px 0 0;
+      width: 135px;
+      height: 90px;
+    }
+    .table {
+      display: flex;
+      margin-top: 25px;
+      font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+      dl {
+        margin-right: 25px;
+        dt {
+          width: 170px;
+          height: 42px;
+          color: #919496;
+          font-size: 12px;
+          font-weight: 900;
+          line-height: 1.4;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+        }
+        dd {
+          width: 170px;
+          height: 42px;
+          a {
+            color: #fff;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+            text-decoration: none;
+            &:hover {
+              color: #1ed760;
+            }
+          }
+        }
+      }
+    }
+    .social {
+      color: #fff;
+      display: flex;
+      margin: 25px 0 0 180px;
+      .fa-brands {
+        margin-right: 15px;
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        background-color: #222;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+      .fa-instagram {
+        &:hover {
+          color: #1ed760;
+        }
+      }
+      .fa-facebook-f {
+        &:hover {
+          color: #1ed760;
+        }
+      }
+      .fa-twitter {
+        &:hover {
+          color: #1ed760;
+        }
+      }
+    }
+  }
+  .vietnam {
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: end;
+    color: #919496;
+    margin-right: 185px;
+    span {
+      font-size: 12px;
+      &:hover {
+        cursor: pointer;
+        color: #1ed760;
+      }
+    }
+    i {
+      margin-top: 6px;
+      margin-right: 5px;
+    }
+  }
+  .list {
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #919496;
+    font-size: 12px;
+    margin-top: 15px;
+    ul {
+      margin-left: 190px;
+      display: flex;
+      li {
+        letter-spacing: 0.1px;
+        margin-right: 20px;
+        &:hover {
+          cursor: pointer;
+          color: #1ed760;
+        }
+      }
+    }
+    span {
+      margin-right: 185px;
+    }
+  }
+}
+.s-h5 {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 16px;
+}
+.s-h4 {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 25px;
+}
+.s-h2 {
+  line-height: 1.3;
+  font-weight: 800;
+  font-size: 52px;
+}

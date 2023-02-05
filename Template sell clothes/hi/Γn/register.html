@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="register.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <script src="register.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="content-header">
+          <h1>Sign up</h1>
+        </div>
+        <div class="content-register">
+          <form name="myForm" method="post" 
+          action="welcome1.php"onsubmit="return kt(),ValidateEmail(document.myForm.email)">
+          <div class="input">
+            <h2>Full Name</h2>
+            <input
+              type="text"
+              name="txt-name"
+              id="txt-name"
+              placeholder="Name..."
+            />
+          </div>
+          <div class="input">
+            <h2>Email</h2>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email address"
+            />
+          </div>
+          <div class="input">
+            <h2>User Name</h2>
+            <input
+              type="text"
+              name="txt-user"
+              id="txt-user"
+              placeholder="Username..."
+            />
+          </div>
+          <div class="input">
+            <h2>Password</h2>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="******************"
+            />
+          </div>
+          <div class="input">
+            <h2>Repeat Password</h2>
+            <input
+              type="password"
+              name="cof-password"
+              id="cof-password"
+              placeholder="******************"
+            />
+          </div>
+        </div>
+      
+        <div class="check-agree required">
+          <label>
+            <input type="checkbox" name="check-agree" id="check-agree" value="" required>
+            I agree to the<span>Terms of Users</span>
+          </label>
+        </div>
+        <div class="sign">
+          <div class="sign-up">
+            <input type="submit" value="Sign up" onclick="">
+          </div>
+          <div class="sign-in">
+            <a href="">Sign in</a>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </from>
+    </div>
+  </body>
+</html>
